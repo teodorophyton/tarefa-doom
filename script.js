@@ -1,7 +1,8 @@
-const nome = document.getElementById('nome');
-const botao = document.getElementById('botao');
-const caixas = document.getElementById('caixas')
+const nomes = document.querySelectorAll('.nome');
+const botoes = document.querySelectorAll('.botao');
+const caixas = document.getElementById('caixas');
 
+const containercaixas = document.querySelector('caixas');
 
 
 botao.addEventListener('click', () => {
